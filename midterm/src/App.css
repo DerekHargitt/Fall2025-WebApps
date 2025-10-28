@@ -1,0 +1,80 @@
+.root, #root {
+  width:100%;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #D9CBB8;
+  color: #2e5339;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width:128px;
+}
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header,
+footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #2e5339;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #8F724F;
+}
+
+.featured-card,
+.item-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item-card.hovered {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(46, 83, 57, 0.3);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+button {
+  background-color: #2e5339;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+  background-color: #a3c9c9;
+  color: #2e5339;
+}
+
+.footer {
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #d9cbb8;
+  padding-top: 10px;
+  margin-top: 30px;
+}
