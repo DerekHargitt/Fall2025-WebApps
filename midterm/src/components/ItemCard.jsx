@@ -21,7 +21,7 @@ export default function ItemCard({ id, title, description, material, price }) {
       onMouseLeave={handleMouseLeave}
     >
       <h3>{title}</h3>
-      <img src={`../assets/${id}.png`} />
+      <img src={`${import.meta.env.BASE_URL}assets/${id}.png`} />
       <p>{description}</p>
       <p><strong>Material:</strong> {material}</p>
       <p><strong>Price:</strong> {price}</p>

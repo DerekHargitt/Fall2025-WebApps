@@ -15,7 +15,7 @@ export default function FeaturedItem() {
       <h2>Featured Item</h2>
       <div className="featured-card">
         <h3>{featured.name}</h3>
-        <img src={`../assets/${featured.id}.png`} />
+        <img src={`${import.meta.env.BASE_URL}assets/${featured.id}.png`} />
         <p>{featured.description}</p>
         <p><strong>Material:</strong> {featured.material}</p>
         <p><strong>Price:</strong> {featured.price}</p>
