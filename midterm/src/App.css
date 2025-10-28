@@ -34,7 +34,9 @@ h3 {
   font-family: "Raleway", sans-serif;
   color: #8F724F;
 }
-
+p {
+  color: #000000;
+}
 .featured-card,
 .item-card {
   background: #ffffff;
